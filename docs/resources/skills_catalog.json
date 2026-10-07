@@ -1,0 +1,164 @@
+{
+  "skills": [
+    {
+      "skillName": "CRAWL",
+      "displayName": "Crawl",
+      "category": "Core / Locomotion",
+      "isUnilateral": false,
+      "variants": [
+        { "name": "BIRD DOG", "isUnilateral": false, "fields": ["reps"], "targetType": "REPS_ONLY" },
+        { "name": "BABY CRAWL", "isUnilateral": false, "fields": ["duration", "reps"], "targetType": "DURATION" },
+        { "name": "FULL CRAWL", "isUnilateral": false, "fields": ["duration", "reps"], "targetType": "DURATION" },
+        { "name": "FULL CRAWL*", "isUnilateral": false, "fields": ["duration", "reps"], "targetType": "DURATION" }
+      ]
+    },
+    {
+      "skillName": "DEAD HANG",
+      "displayName": "Dead Hang",
+      "category": "Grip / Shoulder Health",
+      "isUnilateral": false,
+      "variants": [
+        { "name": "DEAD HANG", "isUnilateral": false, "fields": ["duration", "reps"], "targetType": "DURATION" }
+      ]
+    },
+    {
+      "skillName": "DEADLIFT",
+      "displayName": "Deadlift",
+      "category": "Hinge / Posterior Chain",
+      "isUnilateral": false,
+      "variants": [
+        { "name": "DEADLIFT", "isUnilateral": false, "fields": ["weight", "reps"], "targetType": "PERCENT_BW_REPS" }
+      ]
+    },
+    {
+      "skillName": "GETUP",
+      "displayName": "Turkish Get-Up",
+      "category": "Full Body / Stability",
+      "isUnilateral": true,
+      "unilateralType": "ARM",
+      "qualificationRule": "BOTH_SIDES_MUST_MEET_OR_EXCEED",
+      "variants": [
+        { "name": "SHOE GETUP DOWN", "isUnilateral": true, "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "SHOE GETUP", "isUnilateral": true, "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "GETUP", "isUnilateral": true, "fields": ["weightLeft", "weightRight", "repsLeft", "repsRight"], "targetType": "WEIGHT_REPS" }
+      ]
+    },
+    {
+      "skillName": "PISTOL",
+      "displayName": "Pistol Squat",
+      "category": "Single Leg Squat",
+      "isUnilateral": true,
+      "unilateralType": "LEG",
+      "qualificationRule": "BOTH_SIDES_MUST_MEET_OR_EXCEED",
+      "variants": [
+        { "name": "REAR LUNGE", "isUnilateral": true, "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "FORWARD FEET ELEVATED REAR LUNGE", "isUnilateral": true, "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "FFERL", "isUnilateral": true, "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "DEFICIT SPLIT SQUAT", "isUnilateral": true, "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "NARROW STANCE HEEL ELEVATED SQUAT", "isUnilateral": false, "fields": ["reps"], "targetType": "REPS_ONLY" },
+        { "name": "NARROW STANCE SQUAT", "isUnilateral": false, "fields": ["reps"], "targetType": "REPS_ONLY" },
+        { "name": "2 PLATE FORWARD HEEL TAP", "isUnilateral": true, "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "NO TOE TOUCH REAR LUNGE", "isUnilateral": true, "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "SQUAT DOWN TO PISTOL UP", "isUnilateral": true, "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "PISTOL", "isUnilateral": true, "fields": ["weightLeft", "weightRight", "repsLeft", "repsRight"], "targetType": "WEIGHT_REPS" }
+      ]
+    },
+    {
+      "skillName": "PLANK",
+      "displayName": "Plank",
+      "category": "Core / Anti-Extension",
+      "isUnilateral": false,
+      "variants": [
+        { "name": "PLANK", "isUnilateral": false, "fields": ["duration", "reps"], "targetType": "DURATION" }
+      ]
+    },
+    {
+      "skillName": "PRESS",
+      "displayName": "Overhead Press",
+      "category": "Vertical Push",
+      "isUnilateral": true,
+      "unilateralType": "ARM",
+      "qualificationRule": "BOTH_SIDES_MUST_MEET_OR_EXCEED",
+      "variants": [
+        { "name": "SHOE PRESS", "isUnilateral": true, "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "PRESS", "isUnilateral": true, "fields": ["weightLeft", "weightRight", "repsLeft", "repsRight"], "targetType": "WEIGHT_REPS" }
+      ]
+    },
+    {
+      "skillName": "PULLUP",
+      "displayName": "Pull-Up",
+      "category": "Vertical Pull",
+      "isUnilateral": false,
+      "variants": [
+        { "name": "RING ROW", "isUnilateral": false, "fields": ["reps"], "targetType": "REPS_ONLY" },
+        { "name": "DEAD HANG", "isUnilateral": false, "fields": ["duration", "reps"], "targetType": "DURATION" },
+        { "name": "HOLLOW HANG", "isUnilateral": false, "fields": ["duration", "reps"], "targetType": "DURATION" },
+        { "name": "INVERTED ROW", "isUnilateral": false, "fields": ["reps"], "targetType": "REPS_ONLY" },
+        { "name": "ABOVE BAR HOLD", "isUnilateral": false, "fields": ["duration", "reps"], "targetType": "DURATION" },
+        { "name": "NEGATIVE", "isUnilateral": false, "fields": ["duration", "reps", "weight"], "targetType": "DURATION_PERCENT_BW" },
+        { "name": "ORANGE BAND CHINUP", "isUnilateral": false, "fields": ["reps"], "targetType": "REPS_ONLY" },
+        { "name": "CHINUP", "isUnilateral": false, "fields": ["reps"], "targetType": "REPS_ONLY" },
+        { "name": "PULLUP", "isUnilateral": false, "fields": ["reps", "weight"], "targetType": "REPS_OR_WEIGHT" }
+      ]
+    },
+    {
+      "skillName": "PUSHUP",
+      "displayName": "Push-Up",
+      "category": "Horizontal Push",
+      "isUnilateral": false,
+      "variants": [
+        { "name": "CHEST HEIGHT PUSHUP", "isUnilateral": false, "fields": ["reps"], "targetType": "REPS_ONLY" },
+        { "name": "HIP HEIGHT PUSHUP", "isUnilateral": false, "fields": ["reps"], "targetType": "REPS_ONLY" },
+        { "name": "BENCH PUSHUP", "isUnilateral": false, "fields": ["reps"], "targetType": "REPS_ONLY" },
+        { "name": "PUSHUP FROM 2 RISERS", "isUnilateral": false, "fields": ["reps"], "targetType": "REPS_ONLY" },
+        { "name": "PUSHUP", "isUnilateral": false, "fields": ["reps"], "targetType": "REPS_ONLY" },
+        { "name": "OAPU HIP HEIGHT", "isUnilateral": true, "unilateralType": "ARM", "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "OAPU 2 RISERS", "isUnilateral": true, "unilateralType": "ARM", "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "OAPU BENCH", "isUnilateral": true, "unilateralType": "ARM", "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "OAPU NEGATIVE", "isUnilateral": true, "unilateralType": "ARM", "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "OAPU", "isUnilateral": true, "unilateralType": "ARM", "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "OAOLPU HIP HEIGHT", "isUnilateral": true, "unilateralType": "BOTH", "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "OAOLPU BENCH", "isUnilateral": true, "unilateralType": "BOTH", "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "OAOLPU 2 RISERS", "isUnilateral": true, "unilateralType": "BOTH", "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "OAOLPU NEGATIVE", "isUnilateral": true, "unilateralType": "BOTH", "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "OAOLPU", "isUnilateral": true, "unilateralType": "BOTH", "fields": ["weight", "repsLeft", "repsRight"], "targetType": "PERCENT_BW_REPS" }
+      ]
+    },
+    {
+      "skillName": "RFEDSS",
+      "displayName": "Rear Foot Elevated Deficit Split Squat",
+      "category": "Single Leg Squat",
+      "isUnilateral": true,
+      "unilateralType": "LEG",
+      "qualificationRule": "BOTH_SIDES_MUST_MEET_OR_EXCEED",
+      "variants": [
+        { "name": "REAR LUNGE", "isUnilateral": true, "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "FORWARD FEET ELEVATED REAR LUNGE", "isUnilateral": true, "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "FFERL", "isUnilateral": true, "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "DEFICIT SPLIT SQUAT", "isUnilateral": true, "fields": ["repsLeft", "repsRight"], "targetType": "REPS_ONLY" },
+        { "name": "RFEDSS", "isUnilateral": true, "fields": ["weightLeft", "weightRight", "repsLeft", "repsRight"], "targetType": "PERCENT_BW_REPS" }
+      ]
+    },
+    {
+      "skillName": "SINGLE SIDE CARRY MARCH",
+      "displayName": "Single Side Carry March",
+      "category": "Loaded Carry / Anti-Lateral Flexion",
+      "isUnilateral": true,
+      "unilateralType": "ARM",
+      "qualificationRule": "BOTH_SIDES_MUST_MEET_OR_EXCEED",
+      "variants": [
+        { "name": "SINGLE SIDE CARRY MARCH", "isUnilateral": true, "fields": ["weightLeft", "weightRight", "repsLeft", "repsRight"], "targetType": "PERCENT_BW_REPS" }
+      ]
+    },
+    {
+      "skillName": "SQUAT",
+      "displayName": "Goblet / Front Squat",
+      "category": "Bilateral Squat",
+      "isUnilateral": false,
+      "variants": [
+        { "name": "POLE SQUAT", "isUnilateral": false, "fields": ["reps"], "targetType": "REPS_ONLY" },
+        { "name": "SQUAT", "isUnilateral": false, "fields": ["weight", "reps"], "targetType": "WEIGHT_REPS" }
+      ]
+    }
+  ]
+}

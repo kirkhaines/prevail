@@ -1,0 +1,64 @@
+{
+  "zones": [
+    {
+      "zone": 1,
+      "levels": [1, 2, 3, 4],
+      "name": "Foundational / Zone 1",
+      "primaryColorName": "BLUE",
+      "shades": [
+        { "level": 1, "shadeName": "Light Blue", "hex": "#90CAF9", "legacyColor": "WHITE" },
+        { "level": 2, "shadeName": "Sky Blue", "hex": "#42A5F5", "legacyColor": "BLUE" },
+        { "level": 3, "shadeName": "Royal Blue", "hex": "#1E88E5", "legacyColor": "YELLOW" },
+        { "level": 4, "shadeName": "Deep Navy", "hex": "#1565C0", "legacyColor": "GREEN" }
+      ]
+    },
+    {
+      "zone": 2,
+      "levels": [5, 6, 7, 8],
+      "name": "Progressive / Zone 2",
+      "primaryColorName": "RED",
+      "shades": [
+        { "level": 5, "shadeName": "Light Coral", "hex": "#EF9A9A", "legacyColor": "RED" },
+        { "level": 6, "shadeName": "Salmon Red", "hex": "#E57373", "legacyColor": "LIGHT BLUE" },
+        { "level": 7, "shadeName": "Crimson", "hex": "#E53935", "legacyColor": "ORANGE" },
+        { "level": 8, "shadeName": "Deep Burgundy", "hex": "#B71C1C", "legacyColor": "BRIGHT PINK" }
+      ]
+    },
+    {
+      "zone": 3,
+      "levels": [9, 10, 11, 12],
+      "name": "Intermediate / Zone 3",
+      "primaryColorName": "YELLOW",
+      "shades": [
+        { "level": 9, "shadeName": "Pale Amber", "hex": "#FFF59D", "legacyColor": "BRIGHT GREEN" },
+        { "level": 10, "shadeName": "Gold Yellow", "hex": "#FFEE58", "legacyColor": "PURPLE" },
+        { "level": 11, "shadeName": "Deep Amber", "hex": "#FDD835", "legacyColor": "GOLD" },
+        { "level": 12, "shadeName": "Dark Goldenrod", "hex": "#FBC02D", "legacyColor": "PINK" }
+      ]
+    },
+    {
+      "zone": 4,
+      "levels": [13, 14, 15, 16],
+      "name": "Advanced / Zone 4",
+      "primaryColorName": "GREEN",
+      "shades": [
+        { "level": 13, "shadeName": "Light Sage", "hex": "#A5D6A7", "legacyColor": "EGGSHELL" },
+        { "level": 14, "shadeName": "Jade Green", "hex": "#66BB6A", "legacyColor": "MAROON" },
+        { "level": 15, "shadeName": "Forest Green", "hex": "#388E3C", "legacyColor": "GREY" },
+        { "level": 16, "shadeName": "Deep Hunter Green", "hex": "#1B5E20", "legacyColor": "BROWN" }
+      ]
+    },
+    {
+      "zone": 5,
+      "levels": [17, 18, 19, 20],
+      "name": "Elite / Zone 5",
+      "primaryColorName": "BLACK",
+      "shades": [
+        { "level": 17, "shadeName": "Medium Charcoal", "hex": "#757575", "legacyColor": "SILVER" },
+        { "level": 18, "shadeName": "Dark Charcoal", "hex": "#424242", "legacyColor": "BURNT ORANGE" },
+        { "level": 19, "shadeName": "Near Black", "hex": "#212121", "legacyColor": "LIGHT PURPLE" },
+        { "level": 20, "shadeName": "Jet Black", "hex": "#0A0A0A", "legacyColor": "BLACK" }
+      ]
+    }
+  ]
+}
