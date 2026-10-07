@@ -1,0 +1,71 @@
+# Miscellaneous & OS
+*.DS_Store
+*.swp
+*.swo
+*~
+Thumbs.db
+
+# Dart & Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# Symbol & build artifacts
+*.apk
+*.aab
+*.app
+*.ipa
+
+# Android
+**/android/.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/build/
+**/android/app/build/
+**/android/.cxx/
+*.keystore
+*.jks
+
+# iOS & macOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/App.framework
+**/ios/Flutter/ephemeral/
+**/ios/DerivedData/
+*.xcworkspace
+*.xcuserdatad
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata
+xcuserdata/
+Pods/
+
+# Web
+**/build/web/
+
+# IDEs & Editors
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# Environment, secrets & credentials
+*.env
+*.env.*
+!*.env.example
+secrets.json
+google-services.json
+GoogleService-Info.plist
+
+# Agent / Scratch logs
+scratch/
+.system_generated/
